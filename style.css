@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --veryDarkBlue: hsl(233, 47%, 7%);
+  --darkDesaturatedBlue: hsl(244, 38%, 16%);
+  --softViolet: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --mainParagraph: hsla(0, 0%, 100%, 0.75);
+  --statsHeading: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  background-color: var(--veryDarkBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
