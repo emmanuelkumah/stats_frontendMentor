@@ -35,6 +35,7 @@ body {
   }
   .heroImg {
     width: 100%;
+    height: 37vh;
     background: var(--softViolet);
     overflow: hidden;
     border-top-left-radius: 10px;
@@ -42,7 +43,7 @@ body {
   }
   img {
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.6;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
@@ -66,5 +67,16 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 1.5;
+  }
+  .stats {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .stats_details p {
+    text-transform: uppercase;
+    color: var(--mainParagraph);
+    padding-bottom: 30px;
   }
 }
