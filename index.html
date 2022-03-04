@@ -5,34 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-    <title>Stats Page Frontend Mentor</title>
+    <title>Order Summary component</title>
 </head>
 <body>
-   <main>
-    <div class="heroImg">
-        <img src="./images/image-header-mobile.jpg" alt="hero"  />
-    </div>
-       <section class="mainContent">  
-           <h1 class="heroCaption">Get <span>insights</span> that <br> help your business<br> grow.</h1>
-           <article class="cardDesc">
-            <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency</p>
-           </article>   
-       </section>
-       <section class="stats">
-           <article class="stats_details">
-            <h2>10k+</h2>
-            <p>companies</p>
-           </article>
-           <article class="stats_details">
-            <h2>314</h2>
-            <p>Templates</p>
-           </article>
-           <article class="stats_details">
-            <h2>12M+</h2>
-            <p>queries</p>
-           </article>
-           
-       </section>
-   </main>
+   <main class="row">
+    <section class="column">
+        <figure class="statsImage"> 
+            <img src="./images/image-header-desktop.jpg"  alt="officeSettings"/>
+        </figure>
+    </section>
+
+    <section class="column">
+        <h1 class="statsCaption">Get <span>insights</span> that help  your business  grow.</h1>
+        <article class="statsDesc">
+         <p>Discover the benefits of data 
+            analytics and make better decisions 
+            regarding revenue, customer experience, and overall efficiency.
+        </p>
+       
+        </article>  
+         
+        <section class="stats">
+            <article class="statsCount">
+             <h2>10k+</h2>
+             <p>companies</p>
+            </article>
+            <article class="statsCount">
+             <h2>314</h2>
+             <p>Templates</p>
+            </article>
+            <article class="statsCount">
+             <h2>12M+</h2>
+             <p>queries</p>
+            </article>
+            
+        </section>
+    </section>
+       
+   </main> 
 </body>
 </html>
